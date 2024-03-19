@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity
 
 	public void onClicked(View view)
 	{
+		// a sample comment
 		Log.i(System.getProperty("os.name"), "test_message");
 		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-2911-5245"));
 		startActivity(intent);
